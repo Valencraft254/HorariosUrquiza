@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horarios Ferrocarril Urquiza</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🚆 Horarios Ferrocarril Urquiza</h1>
+
+    <div class="horaActual">
+        <span id="hora"></span>
+    </div>
+
+    <div class="filtros">
+        <select id="estacion">
+            <option>Villa del Parque</option>
+            <option>Artigas</option>
+            <option>Francisco Beiró</option>
+            <option>Devoto</option>
+            <option>Antonio Devoto</option>
+            <option>El Libertador</option>
+            <option>José Cubas</option>
+            <option>Bosch</option>
+            <option>Martín Coronado</option>
+            <option>Pablo Podestá</option>
+            <option>Tropezón</option>
+            <option>Villa Lynch</option>
+            <option>General Lemos</option>
+            <option>Federico Lacroze</option>
+        </select>
+
+        <select id="sentido">
+            <option value="lacroze">A Federico Lacroze</option>
+            <option value="lemos">A General Lemos</option>
+        </select>
+    </div>
+
+    <div id="trenes"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
